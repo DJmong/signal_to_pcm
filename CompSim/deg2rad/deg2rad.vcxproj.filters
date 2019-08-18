@@ -33,7 +33,7 @@
     <ClCompile Include="struct_init.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="play_time.c">
+    <ClCompile Include="make_sound.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -54,6 +54,9 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="file_io.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="octave.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

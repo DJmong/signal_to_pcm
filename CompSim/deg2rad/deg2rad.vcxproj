@@ -80,7 +80,7 @@
   <ItemGroup>
     <ClCompile Include="file_io.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="play_time.c" />
+    <ClCompile Include="make_sound.c" />
     <ClCompile Include="rad_deg.c" />
     <ClCompile Include="rect_polar.c" />
     <ClCompile Include="signal.c" />
@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="def_PI.h" />
+    <ClInclude Include="octave.h" />
     <ClInclude Include="po_define.h" />
     <ClInclude Include="rad_deg.h" />
     <ClInclude Include="rect_polar.h" />

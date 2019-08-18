@@ -30,5 +30,10 @@ double piano_signal(po *a){
 		주파수 값으로 나눈 현재 값이  
 	*/
 
+
 	return t;
+}
+
+double convolution(){
+
 }
