@@ -1,11 +1,9 @@
-﻿Build started 2019-08-18 오후 5:41:44.
+﻿Build started 2019-08-21 오전 10:11:55.
      1>Project "C:\Users\연구실컴\Documents\GitHub\signal_to_pcm\CompSim\deg2rad\deg2rad.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt make_sound.c signal.c
-         signal.c
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt make_sound.c
          make_sound.c
-         Generating Code...
-     1>c:\users\연구실컴\documents\github\signal_to_pcm\compsim\deg2rad\signal.c(39): warning C4716: 'convolution' : must return a value
+     1>c:\users\연구실컴\documents\github\signal_to_pcm\compsim\deg2rad\make_sound.c(20): warning C4101: 'i' : unreferenced local variable
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\연구실컴\Documents\GitHub\signal_to_pcm\CompSim\Debug\deg2rad.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\연구실컴\Documents\GitHub\signal_to_pcm\CompSim\Debug\deg2rad.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\연구실컴\Documents\GitHub\signal_to_pcm\CompSim\Debug\deg2rad.lib" /MACHINE:X86 Debug\file_io.obj
          Debug\main.obj
@@ -19,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.90
+Time Elapsed 00:00:00.37

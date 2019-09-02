@@ -8,5 +8,5 @@
 #define G 47
 #define A 49
 #define B 51
-#define Cs 53
+#define N 0
 #endif
